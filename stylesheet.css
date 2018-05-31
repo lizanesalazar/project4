@@ -5,12 +5,15 @@ body {
 p {
 font-size:20px;
 color:#664B7F;
+border-style: double;
+border-width: 15px;
+background-color: #D3CBDD;
 }
 
 img {
    padding:10px;
-   border:1px solid #D3CBDD;
-   background-color:#D3CBDD;
+   border:1px solid #664B7F;
+   background-color:#664B7F;
 }
 
 .cell {cursor: cell;
@@ -34,11 +37,12 @@ color:#687B59;
   padding: 10px;
 }
 .grid-item {
-  background-color: #D3CBDD;
-  border: 1px solid #664B7F;
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+background-color: #D3CBDD;
+border-style: double;
+border-width: 15px;
+padding: 20px;
+font-size: 30px;
+text-align: center;
 }
 
 div {
@@ -48,4 +52,5 @@ color: #664B7F;
 h1 {
 color: #664B7F;
 font-size:74px;
+text-shadow: 4px 4px #B092B5;
 }
